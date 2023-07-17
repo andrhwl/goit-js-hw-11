@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+}
+
+input,
+button {
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+.load-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type="submit"],
+button {
+    border: none;
+    background-color: rgba(45, 45, 233, 0.731);
+    color: white;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    width: 300px;
+    overflow: hidden;
+    height: 200px;
+}
+
+.gallery {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.photo-card {
+    width: 300px;
+}
+.info{
+    display: flex;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
