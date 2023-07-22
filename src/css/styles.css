@@ -59,10 +59,3 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-#scrollUpButton {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-}
