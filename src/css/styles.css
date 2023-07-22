@@ -59,3 +59,24 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+#scrollUpButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  #scrollUpButton:before {
+    content: '\2191';
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+  }
