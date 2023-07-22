@@ -104,3 +104,4 @@ function renderImageCard(images) {
   }).join(' ');
     gallery.insertAdjacentHTML('beforeend', imagesMarkup);
 }
+
